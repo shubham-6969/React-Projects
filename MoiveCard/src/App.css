@@ -1,0 +1,33 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background-color: #000;
+}
+
+
+
+.badge {
+    display: inline-block;
+    padding: 5px;
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+.card {
+  transition: all 0.3s ease;
+  transform: perspective(1000px) translateZ(0); /* depth ke liye */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  background-color: #44e4f3;
+}
+
+.card:hover {
+  transform: perspective(1000px) translateZ(20px) scale(1.05); /* pop out effect */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
