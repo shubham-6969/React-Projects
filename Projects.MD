@@ -1,5 +1,3 @@
-Bahut badhiya Shubham 👏
-Tu abhi React ke **components** aur **props** samajh gaya hai — matlab tu React ka solid base bana raha hai 💪
 
 Ab mai tujhe kuch **beginner-level React projects** batata hoon jisme tu **sirf components aur props** ka use karke bana sakta hai (state ya API call ke bina).
 Yeh tere level ke perfect hai 👇
