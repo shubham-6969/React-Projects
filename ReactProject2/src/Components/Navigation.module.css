@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+    margin: 0 20px;
+    font-size: 17px;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navLinks a:hover {
+  color: #ff6600;
+  border-bottom: 2px solid #ff6600;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    /* ensure karta hai ki image crop na ho */
+}
+
+.nav_container {
+ margin-bottom: 60px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    width: 100%;
+    height: 70px;
+}
+
+.menuIcon {
+    display: none;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 0 20px;
+  }
+
+  .navLinks {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    display: none;
+  }
+
+  .active {
+    display: flex;
+  }
+
+  .menuIcon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+
