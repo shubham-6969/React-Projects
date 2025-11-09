@@ -12,7 +12,7 @@ const ContactForm = () => {
     const [email, setEmail] = useState("codex123@gmail.com");
     const [text, setText] = useState("Codex allways with you");
 
-    
+
 
     const onSubmit = (event) => {
         event.preventDefault();
