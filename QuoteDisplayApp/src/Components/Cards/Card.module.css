@@ -1,0 +1,51 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+.card_container{
+    border: none;
+    min-height: 400px;
+    height: auto;
+    width: 95%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #6A9BE6;
+    color: #fff;
+    font-size:23px;
+}
+
+.quote_text{
+    border: none;
+    padding: 20px;
+    background-color: #c0c0c0;
+    display: flex;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
